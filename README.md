@@ -172,6 +172,12 @@ where **λ** represents a candidate hyperparameter configuration and **AP(valida
 
 The optimisation seeks to minimise the fitness function while maintaining a clear separation between model development and final testing.
 
+<p align="center">
+<img src="https://github.com/shahid3167/R-GWO-BiLSTM-Fall-Detection/blob/main/Results/GWO.png" width="900" height="700">
+
+<p align="left">
+System model of the proposed IoT-Enabled GWO-BiLSTM Framework for fall detection and activity monitoring.
+
 ### 5. Multi-Seed Evaluation
 
 Leading configurations identified through GWO are evaluated across multiple random training seeds.
