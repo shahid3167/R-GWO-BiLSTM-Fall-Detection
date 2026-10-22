@@ -89,7 +89,6 @@ R-GWO-BiLSTM-Fall-Detection/
 ├── requirements.txt
 ├── .gitignore
 └── LICENSE
-
 ## Methodology
 
 The proposed **Refined Grey Wolf Optimisation-based Bidirectional Long Short-Term Memory (R-GWO-BiLSTM)** framework combines metaheuristic optimisation with deep temporal feature learning for wearable sensor-based fall detection.
