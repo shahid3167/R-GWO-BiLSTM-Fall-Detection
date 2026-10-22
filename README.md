@@ -69,8 +69,10 @@ The proposed R-GWO-BiLSTM framework is evaluated using the **MobiFall v2.0 datas
 
 
 
+
 ## Repository Structure
 
+```text
 R-GWO-BiLSTM-Fall-Detection/
 │
 ├── notebooks/
@@ -87,8 +89,9 @@ R-GWO-BiLSTM-Fall-Detection/
 │
 ├── README.md
 ├── requirements.txt
-├── .gitignore
 └── LICENSE
+```
+
 ## Methodology
 
 The proposed **Refined Grey Wolf Optimisation-based Bidirectional Long Short-Term Memory (R-GWO-BiLSTM)** framework combines metaheuristic optimisation with deep temporal feature learning for wearable sensor-based fall detection.
