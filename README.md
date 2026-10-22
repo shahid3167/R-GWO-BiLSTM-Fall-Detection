@@ -176,7 +176,7 @@ The optimisation seeks to minimise the fitness function while maintaining a clea
 <img src="https://github.com/shahid3167/R-GWO-BiLSTM-Fall-Detection/blob/main/Results/GWO.png" width="900" height="700">
 
 <p align="left">
-System model of the proposed IoT-Enabled GWO-BiLSTM Framework for fall detection and activity monitoring.
+Hierarchical search and optimization mechanism of the Grey Wolf Optimizer (GWO) with adaptive position updates and fitness-based selection.
 
 ### 5. Multi-Seed Evaluation
 
