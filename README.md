@@ -21,3 +21,6 @@ The framework evaluates:
 The study uses the MobiFall v2.0 dataset, containing accelerometer and gyroscope measurements collected during fall events and daily activities.
 
 # IoT-Enabled Fall Detection Framework
+The proposed architecture considers an IoT-enabled monitoring environment in which wearable inertial sensors acquire body-motion measurements. The sensor data are processed and analysed using the proposed R-GWO-BiLSTM framework to distinguish falls from normal activities.
+
+The architecture includes wearable sensing, data acquisition, preprocessing, temporal feature learning, GWO-based model selection, activity classification, and potential fall-alert generation.
