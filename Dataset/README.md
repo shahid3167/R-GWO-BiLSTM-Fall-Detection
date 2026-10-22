@@ -13,7 +13,7 @@ The dataset is not directly included in this GitHub repository.
 
 Researchers interested in reproducing the experimental results are requested to download the dataset from Kaggle using the following link:
 
-**Kaggle Dataset:** [Download MobiFall Dataset]([INSERT_KAGGLE_DATASET_LINK_HERE](https://www.kaggle.com/datasets/sha0401/mobifall-dataset-v2-0))
+**Kaggle Dataset:** [Download MobiFall Dataset](https://www.kaggle.com/datasets/sha0401/mobifall-dataset-v2-0)
 
 After downloading the dataset, extract the files and place them in the `data/` directory of this repository.
 
