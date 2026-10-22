@@ -66,3 +66,43 @@ The proposed R-GWO-BiLSTM framework is evaluated using the **MobiFall v2.0 datas
 | Validation | 4 |
 | Testing | 4 |
 | **Total** | **24** |
+
+
+
+## Repository Structure
+
+```text
+R-GWO-BiLSTM-Fall-Detection/
+├── src/
+│   └── rgwo_bilstm/
+│       ├── __init__.py
+│       ├── data_preprocessing.py
+│       ├── subject_split.py
+│       ├── bilstm_model.py
+│       ├── gwo_optimizer.py
+│       ├── multiseed_validation.py
+│       ├── threshold_optimization.py
+│       ├── model_evaluation.py
+│       ├── computational_analysis.py
+│       └── main.py
+│
+├── notebooks/
+│   └── R_GWO_BiLSTM.ipynb
+│
+├── data/
+│   └── README.md
+│
+├── results/
+│   ├── figures/
+│   ├── classification/
+│   ├── optimization/
+│   └── computational/
+│
+├── models/
+├── requirements.txt
+├── pyproject.toml
+├── .gitignore
+├── LICENSE
+└── README.md
+```
+
