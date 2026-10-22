@@ -204,7 +204,6 @@ Classification performance is assessed using:
 - Specificity
 - ROC-AUC
 - PR-AUC
-- Matthews Correlation Coefficient (MCC)
 - Confusion matrix
 
 Computational efficiency is also examined through parameter count, FLOPs, model size, and inference latency.
