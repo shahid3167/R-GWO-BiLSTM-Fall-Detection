@@ -7,15 +7,10 @@ The proposed **Refined Grey Wolf Optimisation-based Bidirectional Long Short-Ter
 The framework evaluates:
 
 - Fall detection and activities of daily living (ADL) classification.
-
 - Grey Wolf Optimisation (GWO) for BiLSTM hyperparameter selection.
-
 - Multi-seed evaluation of candidate configurations to assess training stability.
-
 - Subject-independent training, validation, and testing.
-
 - Validation-based classification threshold optimisation.
-
 - Classification performance and computational efficiency.
 
 The study uses the MobiFall v2.0 dataset, containing accelerometer and gyroscope measurements collected during fall events and daily activities.
@@ -30,3 +25,13 @@ The architecture includes wearable sensing, data acquisition, preprocessing, tem
 
 <p align="left">
 System model of the proposed IoT-Enabled GWO-BiLSTM Framework for fall detection and activity monitoring.
+
+# Features
+- **IoT-enabled sensing architecture:** Supports a wearable sensor-based monitoring framework for elderly and disabled individuals.
+- **Bidirectional temporal modelling:** Employs BiLSTM layers to learn motion patterns from accelerometer and gyroscope sequences.
+- **Metaheuristic optimisation:** Uses GWO to explore candidate model configurations.
+- **Validation-based fitness evaluation:** Minimises the fitness function defined as one minus validation average precision.\
+- **Multi-seed model evaluation:** Examines the stability of leading candidate configurations across repeated training runs.
+- S**ubject-independent evaluation:** Separates participants across training, validation, and test partitions.
+- **Threshold refinement:** Selects the classification threshold using validation Matthews Correlation Coefficient (MCC).
+- **Computational assessment:** Evaluates parameter count, floating-point operations, model size, and inference latency.
