@@ -354,7 +354,6 @@ The experiments are conducted using the MobiFall v2.0 dataset.
 
 Users should obtain the dataset from its authorised source and comply with the applicable access, citation, and redistribution conditions.
 
-The dataset is not assumed to be included in this repository. If the data are distributed separately, they should be placed in the `data/` directory before executing the experimental workflow.
 
 ---
 
