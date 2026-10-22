@@ -30,8 +30,39 @@ System model of the proposed IoT-Enabled GWO-BiLSTM Framework for fall detection
 - **IoT-enabled sensing architecture:** Supports a wearable sensor-based monitoring framework for elderly and disabled individuals.
 - **Bidirectional temporal modelling:** Employs BiLSTM layers to learn motion patterns from accelerometer and gyroscope sequences.
 - **Metaheuristic optimisation:** Uses GWO to explore candidate model configurations.
-- **Validation-based fitness evaluation:** Minimises the fitness function defined as one minus validation average precision.\
+- **Validation-based fitness evaluation:** Minimises the fitness function defined as one minus validation average precision.
 - **Multi-seed model evaluation:** Examines the stability of leading candidate configurations across repeated training runs.
 - S**ubject-independent evaluation:** Separates participants across training, validation, and test partitions.
 - **Threshold refinement:** Selects the classification threshold using validation Matthews Correlation Coefficient (MCC).
 - **Computational assessment:** Evaluates parameter count, floating-point operations, model size, and inference latency.
+
+#  Dataset
+The framework is evaluated using MobiFall v2.0, a wearable inertial-sensor dataset containing recordings of falls and activities of daily living.
+
+
+## Dataset
+
+The proposed R-GWO-BiLSTM framework is evaluated using the **MobiFall v2.0 dataset**, containing accelerometer and gyroscope measurements recorded during falls and activities of daily living (ADLs).
+
+| Dataset Characteristic | Description |
+|:-----------------------|:------------|
+| Dataset | MobiFall v2.0 |
+| Participants | 24 |
+| Total Recordings | 630 |
+| ADL Recordings | 342 |
+| Fall Recordings | 288 |
+| Sensor Modalities | Accelerometer and Gyroscope |
+| Input Channels | 6 |
+| Sampling Frequency | 100 Hz |
+| Observation Window | 2 seconds |
+| Input Dimensions | 200 × 6 |
+| Evaluation Strategy | Subject-Independent |
+
+### Subject-Independent Data Partitioning
+
+| Data Partition | Participants |
+|:---------------|------------:|
+| Training | 16 |
+| Validation | 4 |
+| Testing | 4 |
+| **Total** | **24** |
