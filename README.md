@@ -389,10 +389,11 @@ For questions, feedback, or research collaboration, please contact the authors.
 
 ---
 
+
 ## License
 
-The licence for this repository will be specified upon release.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-Any third-party datasets, software libraries, and other resources remain subject to their respective licences and terms of use.
+The MobiFall dataset is not distributed with this repository and remains subject to its original licensing and usage conditions.
 
 
