@@ -19,3 +19,5 @@ The framework evaluates:
 - Classification performance and computational efficiency.
 
 The study uses the MobiFall v2.0 dataset, containing accelerometer and gyroscope measurements collected during fall events and daily activities.
+
+# IoT-Enabled Fall Detection Framework
