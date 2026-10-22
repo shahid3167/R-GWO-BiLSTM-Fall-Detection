@@ -1,1 +1,51 @@
 
+[project]
+name = "r-gwo-bilstm-fall-detection"
+version = "1.0.0"
+description = "An IoT-enabled Refined Grey Wolf Optimisation-based BiLSTM framework for fall detection in elderly and disabled people."
+readme = "README.md"
+requires-python = ">=3.10"
+
+authors = [
+    { name = "Abdulrahman A. Alzahrani" },
+    { name = "Shahid Hussain", email = "shahid.hussain@atu.ie" },
+    { name = "Sahbi Boubaker" }
+]
+
+keywords = [
+    "Fall Detection",
+    "Internet of Things",
+    "Grey Wolf Optimisation",
+    "Bidirectional LSTM",
+    "Deep Learning",
+    "Wearable Sensors",
+    "MobiFall",
+    "Healthcare Monitoring"
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Framework :: Jupyter",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Intended Audience :: Science/Research"
+]
+
+dependencies = [
+    "numpy",
+    "pandas",
+    "scipy",
+    "scikit-learn",
+    "tensorflow",
+    "matplotlib",
+    "seaborn",
+    "jupyter",
+    "ipykernel"
+]
+
+[project.urls]
+Repository = "https://github.com/shahid3167/R-GWO-BiLSTM-Fall-Detection"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
