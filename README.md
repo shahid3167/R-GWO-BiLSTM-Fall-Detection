@@ -29,4 +29,4 @@ The architecture includes wearable sensing, data acquisition, preprocessing, tem
 <img src="https://github.com/shahid3167/R-GWO-BiLSTM-Fall-Detection/blob/main/Results/SystemModel.png" width="900" height="700">
 
 <p align="left">
-IoT-enabled EV battery sensing framework, showing the battery components and sensing infrastructure for monitoring and operation.
+System model of the proposed IoT-Enabled GWO-BiLSTM Framework for fall detection and activity monitoring.
