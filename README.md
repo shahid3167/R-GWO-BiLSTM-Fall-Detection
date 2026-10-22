@@ -381,6 +381,11 @@ The complete bibliographic citation, publication details, and DOI will be provid
 ## Authors
 
 **Abdulrahman A. Alzahrani**
+Assistant Professor
+Department of Information System and Technology, 
+College of Computer Science and Engineering, 
+University of Jeddah, Jeddah, Saudi Arabia
+Email: aasalzahrani1@uj.edu.sa
 
 **Shahid Hussain**  
 Assistant Professor in Data Analytics  
