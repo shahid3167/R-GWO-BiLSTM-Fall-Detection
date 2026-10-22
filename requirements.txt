@@ -1,1 +1,15 @@
 
+# R-GWO-BiLSTM Fall Detection
+# Suggested dependencies for the Jupyter notebook implementation.
+# Verify against the notebook imports and tested environment before release.
+
+numpy
+pandas
+scipy
+scikit-learn
+tensorflow
+matplotlib
+seaborn
+jupyter
+ipykernel
+
